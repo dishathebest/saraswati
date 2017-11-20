@@ -40,6 +40,7 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 # Normalize
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 html {
 	font-family: sans-serif;
 	box-sizing: border-box;
@@ -238,6 +239,7 @@ td,th{
 --------------------------------------------------------------*/
 body {
     color: #666;
+/*    font-family: 'Noto Sans', sans-serif;*/
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -2297,17 +2299,42 @@ article.page .post-thumb a{
 
 /*  CUSTOM STYLE BY D!shathebest */
 .no_padding{padding:0;}
+.container-fluid{padding: 0px;}
 .mb-20 {margin-bottom:20px;}
 .no-pad-right {padding-right:0}
 .no-pad-left {padding-left:0}
 .custom-logo-link img{height: 50px;width: auto;}
 .article.post, article.page{border: 0px;}
 .prayer_block{display: flex;position: relative;}
-.prayer_block > div{align-self: center;}
+.prayer_block > div{align-self: center;padding: 0 15px;}
 .banner img{width: 100%;}
-.enter_block{position: absolute;top: 0;right: 0;bottom: 0;}
+.enter_block{position: absolute;top: 0;right: 0px;bottom: 0;text-align: right;}
 
-.enter{ writing-mode: vertical-rl;text-orientation: upright;background: #A7CC41;color: #fff;height: 100%;
-    text-align: center;padding: 15px;}
+.enter{ writing-mode: vertical-rl;text-orientation: upright;background: #A7CC41;color: #fff;height: 100%;border: 1px solid #A7CC41;
+    text-align: center;padding: 15px;text-transform: uppercase;letter-spacing: *5px;font-weight: 700;font-size: 30px;}
+.enter:hover,.enter:focus{color: #A7CC41;background: #fff;}
 #content{margin-top: 0px;}
 .content-wrapper .entry-content{padding: 0 !important;}
+.welcome_S h2{text-align: center;color:#A7CC41;font-weight: bold;}
+.welcome_S p{text-align: center;}
+.post-7.page.type-page{margin: 0;padding: 0;}
+.top-header{background: #444 !important;}
+.copy-right{padding: 0px;background: #444 !important;}
+.be_a_part{background:#A7cc41;}
+#post-25{margin: 0px;padding: 0px;}
+.be_a_part h1 {
+    text-align: right;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Roboto Slab"
+    
+   
+}
+.be_a_part input[type="submit"] {
+    float: right;
+    border: none;
+    margin: 15px 0;
+    padding: 11px 25px;
+    background: #444;
+    color: #fff;
+    border-radius: 5px;}
