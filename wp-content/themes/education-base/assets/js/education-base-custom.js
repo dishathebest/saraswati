@@ -111,6 +111,11 @@ jQuery(document).ready(function($){
             stickyMenu();
         }, 300)
     });
+    
+    $(".hamburger").click(function() {
+            $(".stick").toggleClass("change");
+            $(".nav_block").toggleClass("show");
+        });
 });
 
 /*animation with wow*/
