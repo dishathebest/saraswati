@@ -444,7 +444,7 @@ if ( ! function_exists( 'disha_nav_menu' ) ) :
         }
         
         $nav_menu = '<div class="hamburger">
-            <div class="stick">
+            <div class="menu_txt">MENU</div><div class="stick">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
