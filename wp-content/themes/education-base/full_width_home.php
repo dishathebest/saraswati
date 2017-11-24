@@ -54,7 +54,10 @@ if ( ! function_exists( 'education_base_front_page' ) ) :
         }
     }
 endif;
-add_action( 'education_base_action_front_page', 'education_base_front_page', 20 ); ?>
+if( is_active_sidebar( 'education-base-home' ) && !is_home() ){
+            dynamic_sidebar( 'education-base-home' );
+        }
+//education_base_front_page(); ?>
 <div id="content" class="site-content container-fluid clearfix">
 	<!--<div id="primary" class="content-area">-->
 		<main id="main" class="site-main" role="main">

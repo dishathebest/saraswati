@@ -31,7 +31,7 @@ if ( ! function_exists( 'education_base_front_page' ) ) :
 
         /*show widget in front page, now user are not force to use front page*/
         if( is_active_sidebar( 'education-base-home' ) && !is_home() ){
-            dynamic_sidebar( 'education-base-home' );
+            //dynamic_sidebar( 'education-base-home' );
         }
         if ( 'posts' == get_option( 'show_on_front' ) ) {
             //include( get_home_template() );
